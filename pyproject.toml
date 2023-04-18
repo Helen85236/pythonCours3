@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pythoncours3"
+version = "0.1.0"
+description = ""
+authors = ["Helen85236 <79532870251@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
